@@ -1,0 +1,22 @@
+.header-main {
+  position: relative;
+  min-height: 670px;
+  /*background-color: #1B2D37;*/
+  background: #1B2D37 url(../img/header/bg-header.png) no-repeat;
+  background-size: 100%;
+}
+
+.header-main__text {
+  position: absolute;
+  bottom: 116px;
+  left: 173px;
+  width: 7%;
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  transform: rotate(-90deg);
+}

@@ -1,0 +1,64 @@
+.header-center {
+  min-height: 458px;
+  padding-top: 57px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  background-image: url(../img/header/chips.png), url(../img/questions/Polygon-big.png), url(../img/questions/Polygon-small.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right 12px, right 76px bottom 5px, right 329px bottom 10px;
+  background-size: 43%, 34.6%, 20%;
+}
+
+.header-center__title {
+  margin: 0;
+  margin-left: 6%;
+  font-size: 70px;
+  line-height: 94px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.header-center__text {
+  position: relative;
+  width: 52%;
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 32px;
+  padding-left: 12.4%;
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+  color: #FFFFFF;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 58px;
+    height: 2px;
+    left: 91px;
+    top: 17px;
+    background: #FFFFFF;
+  }
+}
+
+.header-center__link {
+  display: block;
+  padding: 16px 30px;
+  width: 25.5%;
+  margin-left: 174px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #00B2FF;
+  border-radius: 5px;
+}

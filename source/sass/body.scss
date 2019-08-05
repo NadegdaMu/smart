@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Mono", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #000;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

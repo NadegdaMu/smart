@@ -1,0 +1,47 @@
+.about-us {
+  width: 72%;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 99px;
+  padding-left: 161px;
+  box-sizing: border-box;
+  background: url(../img/advantages/2005.png) no-repeat -26px 15px;
+  background-size: 19%;
+}
+
+.about-us__title {
+  margin: 0;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 51px;
+  color: #666666;
+}
+
+.about-us__text {
+  line-height: 22px;
+}
+
+.about-us__text:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+
+.about-us__link {
+  display: block;
+  width: 160px;
+  height: 40px;
+  padding-top: 10px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #00B2FF;
+  text-decoration: none;
+  border: 1px solid #00b2ff;
+  border-radius: 4px;
+}
