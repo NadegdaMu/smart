@@ -1,0 +1,49 @@
+.info {
+  padding-top: 50px;
+  padding-bottom: 44px;
+  border-bottom: 1px solid rgba(98, 105, 98, 0.2);
+}
+
+.info__wrap {
+  display: flex;
+}
+
+.info__deck {
+  width: 30%;
+}
+
+.logo--foter {
+  width: 57%;
+  margin-left: 87px;
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+.social {
+  width: 100%;
+  margin-left: 90px;
+}
+
+.social__list {
+  @include list-reset;
+}
+
+.social__link {
+  display: block;
+  width: 27px;
+  height: 27px;
+  background: url(../img/footer/f.svg) no-repeat;
+}
+
+.social__item {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.social__item:nth-of-type(2) .social__link {
+  background: url(../img/footer/o.svg) no-repeat;
+}
+
+.social__item:nth-of-type(3) .social__link {
+  background: url(../img/footer/wk.svg) no-repeat;
+}

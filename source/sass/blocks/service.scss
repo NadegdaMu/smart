@@ -29,7 +29,15 @@
   height: 550px;
   margin-left: 23px;
   padding: 25px 38px;
-  outline: 1px solid red;
+  background: url(../img/service/1-1.png) no-repeat center;
+
+  &:nth-child(2) {
+    background: url(../img/service/2.png) no-repeat center;
+  }
+
+  &:nth-child(3) {
+    background: url(../img/service/3-1.png) no-repeat center;
+  }
 }
 
 .service__text {
@@ -48,5 +56,5 @@
   bottom: 0;
   width: 57px;
   height: 57px;
-  background: #00B2FF url(../img/service/erroy.svg) no-repeat;
+  background: #00B2FF url(../img/service/erroy.svg) no-repeat center;
 }

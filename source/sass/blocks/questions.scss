@@ -1,0 +1,117 @@
+.questions {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background: #00B2FF;
+}
+
+.questions__wrap {
+  display: flex;
+  justify-content: flex-end;
+  background: url(../img/questions/aircraft.png), url(../img/questions/Polygon-big.png), url(../img/questions/Polygon-small.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 179px 75px, left 87px top 20px, left 44px bottom -14px;
+  background-size: 32%, 34.6%, 20%;
+}
+
+.questions__form {
+  width: 36%;
+  margin-right: 174px;
+}
+
+.questions__title {
+  margin: 0;
+  margin-top: 10px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 51px;
+  color: #FFFFFF;
+}
+
+.questions__text {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 44px;
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.questions__input {
+  height: 46px;
+  width: 48%;
+  margin-bottom: 34px;
+  padding: 0px 14px;
+  box-sizing: border-box;
+  background-color:rgba(255, 255, 255, 0.1);
+  outline: none;
+  border: none;
+
+  &:nth-of-type(1) {
+    margin-right: 12px;
+  }
+}
+
+.questions__input--text {
+  width: 100%;
+  height: 139px;
+  margin-bottom: 26px;
+  padding: 11px 15px;
+}
+
+.btn {
+  margin-right: 20px;
+  padding: 10px 73px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.questions__agreement-label {
+  position: relative;
+  display: block;
+  float: right;
+  padding-left: 38px;
+  padding-top: 5px;
+  width: 48%;
+  height: 41px;
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.8;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #FFFFFF;
+    background: url(../img/questions/tick.svg) no-repeat center;
+    box-sizing: border-box;
+  }
+}
+
+.questions__input::-webkit-input-placeholder {color: #fff;}
+.questions__input:-ms-input-placeholder {color: #fff;}
+.questions__input::-ms-input-placeholder {color: #fff;}
+.questions__input::placeholder { color: #fff;}

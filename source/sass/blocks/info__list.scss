@@ -1,0 +1,28 @@
+.info__list {
+  @include list-reset;
+  padding-left: 60px;
+  padding-top: 7px;
+}
+
+.info__item {
+  font-family: PT Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  color: rgba(27, 45, 55, 0.5);
+}
+
+.info__item--text {
+  padding-bottom: 18px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #1B2D37;
+}
