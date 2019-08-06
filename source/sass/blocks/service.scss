@@ -1,8 +1,13 @@
 .service {
-
+  min-width: 1430px;
   padding-top: 76px;
   padding-bottom: 112px;
   background-color: #1B2D37;
+
+  @media (max-width: 750px) {
+    padding-top: 53px;
+    padding-bottom: 78px;
+  }
 }
 
 .service__title {
@@ -15,6 +20,11 @@
   font-size: 32px;
   line-height: 51px;
   color: #FFFFFF;
+
+  @media (max-width: 750px) {
+    margin-left: 0;
+    margin-bottom: 46px;
+  }
 }
 
 .service__list {
@@ -22,6 +32,10 @@
   display: flex;
   justify-content: center;
   margin-left: -7px;
+
+  @media (max-width: 750px) {
+    flex-direction: column;
+  }
 }
 
 .service__item {
@@ -34,10 +48,27 @@
 
   &:nth-child(2) {
     background: url(../img/service/2.png) no-repeat center;
+
+    @media (max-width: 750px) {
+      background-size: 100%;
+    }
   }
 
   &:nth-child(3) {
     background: url(../img/service/3-1.png) no-repeat center;
+
+    @media (max-width: 750px) {
+      background-size: 100%;
+    }
+  }
+
+  @media (max-width: 750px) {
+    width: 100%;
+    height: 256px;
+    margin-bottom: 46px;
+    overflow: hidden;
+    background-size: contain;
+    outline: 1px solid red;
   }
 }
 

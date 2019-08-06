@@ -7,6 +7,14 @@
   box-sizing: border-box;
   background: url(../img/advantages/2005.png) no-repeat -26px 15px;
   background-size: 19%;
+
+  @media (max-width: 750px) {
+    width: 100%;
+    padding-left: 231px;
+    padding-bottom: 83px;
+    background-position: -11px 8px;
+    background-size: 33%;
+  }
 }
 
 .about-us__title {
@@ -44,4 +52,18 @@
   text-decoration: none;
   border: 1px solid #00b2ff;
   border-radius: 4px;
+}
+
+.about-us__points {
+  display: none;
+
+  @media (max-width: 750px) {
+    display: inline-block;
+  }
+}
+
+.about-us__deck {
+  @media (max-width: 750px) {
+    display: none;
+  }
 }
