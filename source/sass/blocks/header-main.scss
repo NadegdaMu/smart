@@ -1,9 +1,9 @@
 .header-main {
   position: relative;
   min-height: 670px;
-  /*background-color: #1B2D37;*/
+  padding-top: 33px;
   background: #1B2D37 url(../img/header/bg-header.png) no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .header-main__text {
