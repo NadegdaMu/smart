@@ -1,5 +1,5 @@
 .service {
-  padding-top: 76px;
+  padding-top: 4.5%;
   padding-bottom: 112px;
   background-color: #1B2D37;
 
@@ -11,12 +11,12 @@
 
 .service__title {
   margin: 0;
-  margin-left: 200px;
-  margin-bottom: 43px;
+  margin-left: 8.5%;
+  margin-bottom: 3.6%;
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 2.28em;
   line-height: 51px;
   color: #FFFFFF;
 
@@ -44,6 +44,7 @@
   margin-left: 23px;
   padding: 25px 38px;
   background: url(../img/service/1-1.png) no-repeat center;
+  box-sizing: border-box;
 
   &:nth-child(2) {
     background: url(../img/service/2.png) no-repeat center;
@@ -59,6 +60,10 @@
     @media (max-width: 750px) {
       background-size: 100%;
     }
+  }
+
+  &:hover {
+    border: 1px solid #00b2ff;
   }
 
   @media (max-width: 750px) {
