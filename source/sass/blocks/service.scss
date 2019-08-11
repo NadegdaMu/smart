@@ -3,15 +3,20 @@
   padding-bottom: 112px;
   background-color: #1B2D37;
 
-  @media (max-width: 750px) {
-    padding-top: 53px;
-    padding-bottom: 78px;
+  @media (max-width: 770px) {
+    padding-top: 7%;
+    padding-bottom: 4%;
+  }
+
+  @media (max-width: 320px) {
+    padding-top: 15%;
+    padding-bottom: 13%;
   }
 }
 
 .service__title {
   margin: 0;
-  margin-left: 8.5%;
+  margin-left: 11.5%;
   margin-bottom: 3.6%;
   font-family: Roboto Condensed;
   font-style: normal;
@@ -20,36 +25,53 @@
   line-height: 51px;
   color: #FFFFFF;
 
-  @media (max-width: 750px) {
+  @media (max-width: 770px) {
+    width: 88%;
     margin-left: 0;
     margin-bottom: 46px;
+    font-size: 2.3em;
+    line-height: 42px;
+  }
+
+  @media (max-width: 320px) {
+    width: 88%;
+    margin-left: 7%;
+    margin-bottom: 13%;
+    font-size: 2em;
+    line-height: 40px;
   }
 }
 
 .service__list {
   @include list-reset;
   display: flex;
-  justify-content: center;
-  margin-left: -7px;
+  padding: 0 4% 0 9.7%;
 
-  @media (max-width: 750px) {
+  @media (max-width: 770px) {
     flex-direction: column;
+    padding: 0;
   }
 }
 
 .service__item {
   position: relative;
-  width: 23%;
+  width: 29%;
   height: 550px;
   margin-left: 23px;
   padding: 25px 38px;
   background: url(../img/service/1-1.png) no-repeat center;
   box-sizing: border-box;
 
+  &:nth-child(1) {
+    @media (max-width: 770px) {
+      background-size: 100%;
+    }
+  }
+
   &:nth-child(2) {
     background: url(../img/service/2.png) no-repeat center;
 
-    @media (max-width: 750px) {
+    @media (max-width: 770px) {
       background-size: 100%;
     }
   }
@@ -57,22 +79,35 @@
   &:nth-child(3) {
     background: url(../img/service/3-1.png) no-repeat center;
 
-    @media (max-width: 750px) {
+    @media (max-width: 770px) {
       background-size: 100%;
     }
+
   }
 
   &:hover {
     border: 1px solid #00b2ff;
   }
 
-  @media (max-width: 750px) {
+  @media (max-width: 770px) {
     width: 100%;
-    height: 256px;
-    margin-bottom: 46px;
+    height: 258px;
+    margin-left: 0;
+    margin-bottom: 6.5%;
+    padding: 23px 43px;
     overflow: hidden;
     background-size: contain;
-    outline: 1px solid red;
+    background: url(../img/service/750_1.png) no-repeat center;
+  }
+
+  @media (max-width: 320px) {
+    width: 91%;
+    height: 254px;
+    margin-left: 4%;
+    margin-bottom: 9%;
+    padding: 0% 11.5%;
+    background-size: contain;
+    background: url(../img/service/350_1.png) no-repeat center;
   }
 }
 
@@ -81,9 +116,40 @@
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.3em;
   line-height: 28px;
   color: #FFFFFF;
+
+  @media (max-width: 770px) {
+    width: 24%;
+    font-size: 1.4em;
+    line-height: 33px;
+  }
+
+  @media (max-width: 320px) {
+    width: 77%;
+    line-height: 29px;
+  }
+
+
+}
+
+.service__item:nth-child(2) .service__text {
+  @media (max-width: 320px) {
+    line-height: 32px;
+  }
+}
+
+.service__item:nth-child(3) {
+  @media (max-width: 320px) {
+    padding-top: 4%;
+  }
+}
+
+.service__item:nth-child(3) .service__text {
+  @media (max-width: 320px) {
+    line-height: 32px;
+  }
 }
 
 .service__deck {
@@ -93,4 +159,16 @@
   width: 57px;
   height: 57px;
   background: #00B2FF url(../img/service/erroy.svg) no-repeat center;
+
+  &:hover {
+    opacity: 0.5;
+  }
+  &:active {
+    opacity: 1;
+  }
+
+  @media (max-width: 770px) {
+    width: 62px;
+    height: 62px;
+  }
 }

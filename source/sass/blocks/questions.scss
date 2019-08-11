@@ -3,8 +3,13 @@
   padding-bottom: 100px;
   background: #00B2FF;
 
-  @media (max-width: 750px) {
-    padding-top: 83px;
+  @media (max-width: 770px) {
+    padding-top: 8%;
+    padding-bottom: 13%;
+  }
+
+  @media (max-width: 320px) {
+    padding-top: 6%;
   }
 }
 
@@ -16,31 +21,50 @@
   background-position: 179px 75px, left 87px top 20px, left 44px bottom -14px;
   background-size: 32%, 34.6%, 20%;
 
-  @media (max-width: 750px) {
+  @media (max-width: 770px) {
+    justify-content: center;
     background: none;
   }
 }
 
 .questions__form {
-  width: 36%;
-  margin-right: 174px;
+  width: 38.6%;
+  margin-right: 9.5%;
 
-  @media (max-width: 750px) {
-    padding-left: 63px;
-    width: 100%;
+  @media (max-width: 770px) {
+    width: 83%;
     margin-right: 0;
+  }
+
+  @media (max-width: 320px) {
+    width: 90%;
   }
 }
 
 .questions__title {
   margin: 0;
-  margin-top: 10px;
+  margin-top: 1.7%;
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 2.3em;
   line-height: 51px;
   color: #FFFFFF;
+
+  @media (max-width: 770px) {
+    margin-top: 2.3%;
+    font-size: 2em;
+
+  }
+
+  @media (max-width: 320px) {
+    margin-top: 3%;
+    line-height: 42px;
+  }
+}
+
+.questions__label {
+  display: none;
 }
 
 .questions__text {
@@ -50,33 +74,61 @@
   font-family: PT Mono;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 22px;
   color: #FFFFFF;
+
+  @media (max-width: 770px) {
+    margin-top: 2%;
+    margin-bottom: 9%;
+  }
+
+  @media (max-width: 320px) {
+    width: 80%;
+    margin-top: 3%;
+    margin-bottom: 9%;
+    font-size: 1.1em;
+  }
 }
 
 .questions__input {
   height: 46px;
-  width: 48%;
+  width: 47.8%;
   margin-bottom: 34px;
   padding: 0px 14px;
   box-sizing: border-box;
   background-color:rgba(255, 255, 255, 0.1);
   outline: none;
   border: none;
+  color: #fff;
 
   &:nth-of-type(1) {
     margin-right: 12px;
 
-    @media (max-width: 750px) {
-      margin-right: 32px;
+    @media (max-width: 770px) {
+      margin-right: 4%;
+      margin-bottom: 4%;
+    }
+
+    @media (max-width: 320px) {
+      margin-bottom: 11%;
     }
   }
 
-  @media (max-width: 750px) {
-    width: 42%;
+  &:nth-of-type(2) {
+    @media (max-width: 320px) {
+      margin-bottom: 11%;
+    }
+  }
+
+  @media (max-width: 770px) {
+    width: 47%;
     height: 51px;
     margin-bottom: 41px;
+  }
+
+  @media (max-width: 320px) {
+    width: 100%;
   }
 }
 
@@ -86,30 +138,56 @@
   margin-bottom: 26px;
   padding: 11px 15px;
 
-  @media (max-width: 750px) {
-    width: 92.7%;
+  @media (max-width: 770px) {
+    height: 160px;
+  }
+
+  @media (max-width: 320px) {
+    height: 105px;
+  }
+}
+#multiline-field {
+  @media (max-width: 320px) {
+    margin-bottom: 5%;
   }
 }
 
 .btn {
-  margin-right: 20px;
-  padding: 10px 73px;
+  padding: 2.2% 13.7%;
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 0.9em;
   line-height: 16px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #fff;
+  border: 1px solid #fff;
   box-sizing: border-box;
   border-radius: 5px;
   background: transparent;
 
-  @media (max-width: 750px) {
-    padding: 14.5px 92px;
+  &:hover {
+    background-color: #fff;
+    color: #00b2ff;
+  }
+
+  &:active {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  @media (max-width: 770px) {
+    padding: 2.5% 15%;
+    margin-top: 2%;
+  }
+
+  @media (max-width: 320px) {
+    width: 100%;
+    padding: 5% 27%;
+    font-size: 1.01em;
+    margin-bottom: 7%;
   }
 }
 
@@ -124,7 +202,7 @@
   font-family: PT Mono;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.9em;
   line-height: 16px;
   color: #FFFFFF;
   opacity: 0.8;
@@ -138,13 +216,30 @@
     width: 16px;
     height: 16px;
     border: 1px solid #FFFFFF;
-    background: url(../img/questions/tick.svg) no-repeat center;
     box-sizing: border-box;
+
+    @media (max-width: 770px) {
+      top: 21px;
+      left: 7px;
+      width: 18px;
+    }
+
+    @media (max-width: 320px) {
+      top: 10px;
+      width: 17px;
+    }
   }
 
-  @media (max-width: 750px) {
-    width: 39%;
-    margin-right: 46px;
+  @media (max-width: 770px) {
+    width: 41%;
+    margin-right: 6%;
+    padding-top: 3.2%;
+  }
+
+  @media (max-width: 320px) {
+    width: 100%;
+    margin-right: 3%;
+    font-size: 1em;
   }
 }
 
@@ -155,7 +250,9 @@
 
 
 .questions input[type="checkbox"] {
-  @media (max-width: 750px) {
-    display: none;
-  }
+  display: none;
+}
+
+.questions__agreement-input:checked + .questions__agreement-label::before {
+  background: url(../img/questions/tick.svg) no-repeat center;
 }

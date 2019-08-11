@@ -4,13 +4,21 @@
   padding-top: 1.6%;
   background: #1B2D37 url(../img/header/bg-header.png) no-repeat;
   background-size: cover;
+
+  @media (max-width: 770px) {
+    min-height: 686px;
+  }
+
+  @media (max-width: 320px) {
+    min-height: 647px;
+    padding-top: 3%;
+  }
 }
 
 .header-main__text {
   position: absolute;
-  bottom: 116px;
-  left: 173px;
-  width: 7%;
+  bottom: 15%;
+  left: 11.2%;
   font-family: PT Mono;
   font-style: normal;
   font-weight: normal;
@@ -19,4 +27,16 @@
   color: #FFFFFF;
   opacity: 0.5;
   transform: rotate(-90deg);
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+
+  @media (max-width: 770px) {
+    display: none;
+  }
 }
