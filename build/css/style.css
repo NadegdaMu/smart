@@ -598,7 +598,7 @@ html {
 .header-main {
   position: relative;
   min-height: 781px;
-  padding-top: 1.6%;
+  padding-top: 1%;
   background: #1B2D37 url(../img/header/bg-header.png) no-repeat;
   background-size: cover; }
   @media (max-width: 770px) {
@@ -639,9 +639,8 @@ html {
           align-items: center; }
 
 .logo {
-  width: 83%;
   padding-top: 1%;
-  margin-right: 37%; }
+  margin-left: 3%; }
   @media (max-width: 320px) {
     .logo {
       width: 56px;
@@ -664,7 +663,7 @@ html {
 
 .header-top__burger {
   position: relative;
-  width: 87px;
+  width: 31px;
   height: 11px;
   margin-left: 6.5%;
   border-top: 1px solid #fff;
