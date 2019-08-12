@@ -18,6 +18,12 @@
       background-color: rgba(98, 105, 98, 0.2);
     }
   }
+
+  @media (max-width: 320px) {
+    &::before {
+      top: 46%;
+    }
+  }
 }
 
 .info__wrap {

@@ -16,10 +16,10 @@
 .questions__wrap {
   display: flex;
   justify-content: flex-end;
-  background: url(../img/questions/aircraft.png), url(../img/questions/Polygon-big.png), url(../img/questions/Polygon-small.png);
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: 179px 75px, left 87px top 20px, left 44px bottom -14px;
-  background-size: 32%, 34.6%, 20%;
+  background: url(../img/questions/aircraft.png),  url(../img/poligon/g_poligon.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 127px 69px,left 0px top -91px;
+  background-size: 35%, 41%;
 
   @media (max-width: 770px) {
     justify-content: center;
