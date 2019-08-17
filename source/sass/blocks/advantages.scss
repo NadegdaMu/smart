@@ -1,11 +1,11 @@
 .advantages {
-  padding-top: 6%;
+  padding-top: 7%;
 
-  @media (max-width: 770px) {
+  @media screen and (max-width: 1199px) {
     margin-bottom: 1.3%;
   }
 
-  @media (max-width: 320px) {
+  @media screen and (max-width: 767px) {
     padding-top: 12%;
     margin-bottom: 11%;
   }
@@ -18,13 +18,13 @@
   padding: 0px 9% 0px 11.4%;
   margin-bottom: 5.8%;
 
-  @media (max-width: 770px) {
+  @media screen and (max-width: 1199px) {
     padding: 0;
     margin-bottom: 4.4%;
     justify-content: space-between;
   }
 
-  @media (max-width: 320px) {
+  @media screen and (max-width: 767px) {
     flex-direction: column;
   }
 }
@@ -42,18 +42,18 @@
   &:nth-child(odd) {
     margin-right: 3%;
 
-    @media (max-width: 770px) {
+    @media screen and (max-width: 1199px) {
       margin-right: 0;
     }
   }
 
   &:nth-child(2) {
-    @media (max-width: 320px) {
+    @media screen and (max-width: 767px) {
       padding-right: 0;
     }
   }
 
-  @media (max-width: 770px) {
+  @media screen and (max-width: 1199px) {
     width: 48%;
     min-height: 305px;
     margin: 0;
@@ -75,7 +75,7 @@
     }
   }
 
-  @media (max-width: 320px) {
+  @media screen and (max-width: 767px) {
     width: 287px;
     margin-left: 14px;
     min-height: 308px;
@@ -96,7 +96,7 @@
 }
 
 .advantages__item:nth-child(3) .advantages__title {
-  @media (max-width: 320px) {
+  @media screen and (max-width: 767px) {
     width: 70%;
     line-height: 29px;
     margin-bottom: -7%;
@@ -104,7 +104,7 @@
 }
 
 .advantages__item:nth-child(4) {
-  @media (max-width: 320px) {
+  @media screen and (max-width: 767px) {
     padding-top: 19%;
     min-height: 240px;
   }
@@ -132,11 +132,11 @@
   line-height: 34px;
   color: #00B2FF;
 
-  @media (max-width: 770px) {
+  @media screen and (max-width: 1199px) {
     font-size: 1.73em;
   }
 
-  @media (max-width: 320px) {
+  @media screen and (max-width: 767px) {
     font-size: 1.4em;
   }
 }
@@ -151,7 +151,7 @@
   line-height: 20px;
   color: #666666;
 
-  @media (max-width: 770px) {
+  @media screen and (max-width: 1199px) {
     margin-top: 4%;
     font-size: 1.15em;
     line-height: 21px;

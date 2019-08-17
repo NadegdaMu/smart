@@ -1,19 +1,26 @@
 .container {
   max-width: 1316px;
-  min-width: 300px;
   margin: 0 auto;
 
-  @media (max-width: 770px) {
+  @media screen and (max-width: 1199px) {
     padding: 0 25px;
   }
 
-  @media (max-width: 770px) {
-    max-width: 320px;
+  @media screen and (max-width: 767px) {
     padding: 0;
   }
 
 }
 
 .visually-hidden {
-  font-size: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
